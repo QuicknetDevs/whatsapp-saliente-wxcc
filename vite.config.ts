@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: '/whatsapp-saliente-wxcc/', // 👈 mismo nombre que el repo
   plugins: [react()],
   build: {
     sourcemap: true,
